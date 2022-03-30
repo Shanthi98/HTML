@@ -1,0 +1,166 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+.logo{
+    height: 40px;
+    width:130px;
+}
+.hbtn{
+    margin-bottom: 25px;
+    height: 40px;
+    border: none;
+    font-size: 11px;
+    font-weight: 700;
+    padding:10px 25px;
+    border-radius: 17px;
+    background-color:  #FFD8DB;  
+    color:#A389CC;
+    cursor: pointer;
+}
+.header nav.center a{
+    padding: 15px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.315);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header nav.center a:hover{
+    background-color: white;
+    color: black;
+    border-bottom: solid 3px #5243C0;
+
+}
+
+#main{
+    width:1000px;
+    height: 600px;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    
+    
+}
+#sec1{
+    width: 40%;
+    padding-left: 35px;
+    height: 690px;
+    box-sizing: border-box;
+    float: left;
+}
+#sec2{
+    float: left;
+    width: 60%;
+
+    box-sizing: border-box;
+    height:690px;
+}
+#heading{
+    display: inline-block;
+    width: 282px;
+    height: 100px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    word-spacing: 2px;
+}
+.dot{
+    display: inline-block;
+    width: 10px;
+    height:10px;
+    margin-bottom: 0px;
+    background-color: #5243C0;
+}
+#subtxt{
+    padding-top: 10px;
+    width:300px ;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    float: left;
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    font-size: 11px;
+    font-weight: 700;
+    padding:10px 25px;
+    border-radius: 17px;
+    color: white;
+    background-color: #5243C0;
+    cursor: pointer;
+}
+.arrow{
+    margin-left: 55px;
+    margin-bottom: 20px;
+    height:50px;
+}
+#subsec{
+    height: 300px;
+    width:330px;
+    
+}
+.card{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 2px;
+    display: flex;
+    border-radius: 17px;
+    background-color: rgb(240, 235, 235);
+}
+.bluetick{
+    height:30px;
+    width: 30px;
+    margin:5px;
+    background-image: url("images/tick-gray.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.card:hover{
+    background-color: white;
+}
+.card:hover .bluetick{
+    background-image: url("images/tick-blue.png");
+}
+
+.date,.type{
+    text-align: left;
+    padding-left: 12px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+.icon{
+    height:30px;
+    padding: 5px;
+    width: 30px;
+}
+.date{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.smlbtn{
+    height: 10px;
+    width: 25px;
+    border-radius: 5px;
+    margin-top: 14px;
+    margin-left: 17px;
+   
+}
