@@ -1,0 +1,113 @@
+#firstpage{
+     background-image : url(https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 1000px 500px ;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+
+}
+.logo{
+    height: 40px;
+    width:130px;
+    background-color: orange;
+    padding: 40px; 
+}
+
+.content{
+    height: 30px;
+    width: auto;
+    background-color: aliceblue;
+    padding: 30px;
+    text-decoration: none;
+}
+.header nav.center a{
+    padding: 20px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.b{
+    background-color: orange;
+    padding: 20px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.header nav.center a:hover{
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+
+}
+.title{
+    font-size: 60px;
+    line-height: 70px;
+    color: #fff;
+}
+
+.para{
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 26px;
+    color: white;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.footer-container {
+    background-color:#212329 ;
+    padding-bottom: 4rem;
+
+}
+.footer {
+    width: 100%;
+    height: 40vh;
+    background-color:#212329 ;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+  
+}
+.footer-heading h2 {
+    margin-bottom:2rem ;
+}
+.footer-heading a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+
+
